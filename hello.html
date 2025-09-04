@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flutter App Development - Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #4a00e0, #8e2de2);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      background: #fff;
+      color: #4a00e0;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #4a00e0;
+    }
+    .services, .portfolio, .why-me, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .cta {
+      background: linear-gradient(135deg, #8e2de2, #4a00e0);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Build High-Performance Mobile Apps with Flutter 🚀</h1>
+    <p>I help startups & businesses turn ideas into scalable and profitable Android & iOS apps.</p>
+    <a href="#contact" class="btn-primary">Get Free Consultation</a>
+  </header>
+
+  <!-- Services -->
+  <section>
+    <h2>What I Can Build For You</h2>
+    <div class="services">
+      <div class="card">📱 Cross-platform Flutter Apps (iOS & Android)</div>
+      <div class="card">🔗 API & Firebase/Supabase Integration</div>
+      <div class="card">💳 Payment Gateways & Notifications</div>
+      <div class="card">🎨 Custom UI/UX & Animations</div>
+      <div class="card">🛠 Ongoing Support & Maintenance</div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section>
+    <h2>Apps I’ve Built</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Social Media App</h3>
+        <p>10k+ downloads in 3 months</p>
+      </div>
+      <div class="card">
+        <h3>E-Commerce App</h3>
+        <p>Seamless checkout & payments</p>
+      </div>
+      <div class="card">
+        <h3>Fintech App</h3>
+        <p>Secure transactions & notifications</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Me -->
+  <section>
+    <h2>Why Clients Work With Me</h2>
+    <div class="why-me">
+      <div class="card">2.5+ years Flutter Development Experience</div>
+      <div class="card">Team Lead with Clean Architecture Practices</div>
+      <div class="card">Delivered apps in Social, Fintech & Education</div>
+      <div class="card">Strong Communication & On-Time Delivery</div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section>
+    <h2>What My Clients Say</h2>
+    <div class="testimonials">
+      <div class="card">💬 "He built our Flutter app faster than expected and supported us after launch." – Client A</div>
+      <div class="card">💬 "Excellent communication, clean code, and beautiful UI." – Client B</div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2>Let’s Build Your App Together</h2>
+    <p>Schedule a free consultation and get started today.</p>
+    <a href="#contact" class="btn-primary">Schedule Call</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" style="padding:10px; width:100%; margin-bottom:10px;">
+      <input type="email" placeholder="Your Email" style="padding:10px; width:100%; margin-bottom:10px;">
+      <textarea placeholder="Your Project Idea" style="padding:10px; width:100%; height:120px;"></textarea>
+      <button type="submit" class="btn-primary" style="margin-top:10px;">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name | Flutter App Developer</p>
+    <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Upwork</a>
+  </footer>
+
+</body>
+</html>
